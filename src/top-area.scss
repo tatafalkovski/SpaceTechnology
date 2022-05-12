@@ -4,3 +4,17 @@
   width: 100%;
   background: center / contain no-repeat url(/images/top-area-bg.png);
 }
+
+h1 {
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -0.005em;
+  color: #FFFFFF;
+}
+h1 span {
+  background: -webkit-linear-gradient(#FF2900, #FFB018);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
