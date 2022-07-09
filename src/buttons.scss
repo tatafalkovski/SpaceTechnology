@@ -1,0 +1,51 @@
+.container-btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.btn-start {
+    background: linear-gradient(99.41deg, #FFB018 -12.63%, #FF2900 84.78%);
+    border: 3px solid #FFFFFF;
+    border-radius: 133.962px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 25px 33px;
+    padding-right: 123px;
+}
+
+.arrow {
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    border-radius: 3px;
+}
+
+.arrow::after {
+    content: '';
+    top: 30px;
+    transform: rotate(45deg);
+    top: -5px;
+    right: -1px;
+}
+
+.arrow::before {
+    transform: rotate(-45deg);
+    top: 5px;
+    right: -1px;
+}
+.arrow::before,.arrow::after {
+    content: '';
+    width: 15px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 3px;
+}
